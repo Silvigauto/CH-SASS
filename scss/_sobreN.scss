@@ -5,6 +5,15 @@
 	padding: $padding;
 	line-height: $lineHeight;
 	margin: $margin1;
+		h1{
+			font-family: $tipoLetra ;
+			font-size: $textXl;
+			padding: $padding2;
+		}	
+
+		img {
+				padding: $padding3;
+			}
 	
 	@media (min-width: 1024px) {
 		display: flex;
@@ -12,11 +21,7 @@
 		flex-wrap: wrap;
 		justify-content: space-evenly;
 			.sobreN {
-					h1{
-						font-family: $tipoLetra ;
-						font-size: $textXl;
-						padding: $padding2;
-					}				
+								
 				display: flex;     
 				flex-direction: column; 
 				justify-content: center;
@@ -25,9 +30,7 @@
 
 			}
 
-			img {
-				padding: $padding3;
-			}
+			
 		
 	}
 

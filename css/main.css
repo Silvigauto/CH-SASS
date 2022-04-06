@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=League+Gothic&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap");
+.nosotros {
+  grid-area: nosotros;
+  text-align: center;
+  background-color: lightblue;
+  padding: 20px;
+  line-height: 40px;
+  margin: 30px; }
+  @media (min-width: 1024px) {
+    .nosotros {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      .nosotros .sobreN {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 300px;
+        width: 50%; }
+        .nosotros .sobreN h1 {
+          font-family: "League Gothic", sans-serif;
+          font-size: 4rem;
+          padding: 10px; }
+      .nosotros img {
+        padding: 30px; } }

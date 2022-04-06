@@ -1,0 +1,34 @@
+.nosotros {
+	grid-area: nosotros;
+	text-align: center;
+	background-color: $fondo3;
+	padding: $padding;
+	line-height: $lineHeight;
+	margin: $margin1;
+	
+	@media (min-width: 1024px) {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+			.sobreN {
+					h1{
+						font-family: $tipoLetra ;
+						font-size: $textXl;
+						padding: $padding2;
+					}				
+				display: flex;     
+				flex-direction: column; 
+				justify-content: center;
+				height: 300px;
+				width: 50%;
+
+			}
+
+			img {
+				padding: $padding3;
+			}
+		
+	}
+
+}

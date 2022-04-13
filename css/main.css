@@ -2,7 +2,6 @@
 .nosotros {
   grid-area: nosotros;
   text-align: center;
-  background-color: lightblue;
   padding: 20px;
   line-height: 40px;
   margin: 30px; }
@@ -12,6 +11,15 @@
     padding: 10px; }
   .nosotros img {
     padding: 30px; }
+  .nosotros .btnMore {
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px; }
+    .nosotros .btnMore:hover {
+      color: white;
+      transform: scale(1.1);
+      transition: 0.3s; }
   @media (min-width: 1024px) {
     .nosotros {
       display: flex;

@@ -1,7 +1,9 @@
+// EMPIEZA SOBRE NOSOTROS
+
 .nosotros {
 	grid-area: nosotros;
 	text-align: center;
-	background-color: $fondo3;
+
 	padding: $padding;
 	line-height: $lineHeight;
 	margin: $margin1;
@@ -14,6 +16,22 @@
 		img {
 				padding: $padding3;
 			}
+
+		.btnMore {
+			background-color: $fondo4 ;
+			border: none;
+			border-radius: 5px;
+			margin-top: $margin2;
+
+			&:hover {
+				color: white;
+				transform: scale(1.1);
+				transition: 0.3s;
+
+
+			}
+
+		}
 	
 	@media (min-width: 1024px) {
 		display: flex;
@@ -35,3 +53,4 @@
 	}
 
 }
+// EMPIEZA CONTACTANOS

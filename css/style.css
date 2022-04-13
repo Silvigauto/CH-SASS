@@ -194,17 +194,6 @@ body {
 	 	align-items: center;
 	}
 
-	/*	.boton1 {
-		 	background-color: rgb(81, 114, 168);
-		 	border: none;
-		 	padding: 5px;
-		 	margin-left: 3px;
-		 	margin-right: 3px ;
-		 	border-radius: 4px ;
-		 	width: 200px;
-		 	text-align: center;
-		}*/
-	
  	.tamanofoto {
 	width: 600px;
 	height: 500px;
@@ -219,11 +208,6 @@ body {
 			height: 300px;
 			
 		}
-
-	/*.boton1 {
-		margin-top: 15px;
-	}*/
-
 
 .footer {
  	grid-area: footer;
@@ -266,13 +250,7 @@ div ul li:hover {
 	transition: 0.3s;
 } 
 
-/*.boton1:hover {
-	cursor: pointer;
-	transform: scale(1.1);
-	transition: 0.3s;
-	 	
-	}*/
-	 
+
 /* Media Queries index.html*/
 
 @media (min-width: 768px) {
@@ -424,7 +402,7 @@ div ul li:hover {
 
 .medios {
 	grid-area: medios;
-	/*background-color:  rgba(219, 185, 241, .5) ;*/
+	
 	margin: 30px 30px;
 	margin: 20px;
 	text-align: center;
@@ -434,7 +412,6 @@ div ul li:hover {
 
 }
 
-/*103 64 108*/
 
 	.bgA {
 		background-color: lightgray;
@@ -464,7 +441,7 @@ div ul li:hover {
  @media (min-width: 400px) {
  	.medios {
 		grid-area: medios;
-		/*background-color:  rgba(219, 185, 241, .5) ;*/
+		
 		margin: 30px 30px;
 		margin: 20px;
 		text-align: center;
@@ -478,7 +455,7 @@ div ul li:hover {
  @media (min-width: 472px) {
 	.medios {
 		grid-area: medios;
-		/*background-color:  rgba(219, 185, 241, .5) ;*/
+		
 		margin: 30px 30px;
 		margin: 20px;
 		text-align: center;
@@ -501,7 +478,7 @@ div ul li:hover {
 
 	.medios {
 		grid-area: medios;
-		/*background-color:  rgba(219, 185, 241, .5) ;*/
+		
 		margin: 30px 30px;
 		margin: 20px;
 		text-align: center;
@@ -526,7 +503,7 @@ div ul li:hover {
 
 	.medios {
 		grid-area: medios;
-		/*background-color:  rgba(219, 185, 241, .5) ;*/
+		
 		margin: 30px 30px;
 		margin: 20px;
 		text-align: center;
@@ -572,12 +549,12 @@ div ul li:hover {
 }
 
 	table tr th {
-	 	/*padding: 10px;*/
+	 	
 	 	text-align: center;
 	 }
 
 	 table tr td {
-	 	/*padding: 5px;*/
+	 	
 	 	text-align: center;
 	 }
 
@@ -623,11 +600,6 @@ tr td button:hover {
 	transition: 0.3s;
 	
 }
-
-/*.size {
-	width: 80%;
-	
-}*/
 
 
 

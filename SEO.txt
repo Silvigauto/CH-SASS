@@ -1,0 +1,5 @@
+SEO
+Agregué descriptions y keywords a todas las páginas de mi proyecto. Tomando en cuenta que las palabras existan en mi body
+
+Cambios en el orden de los headings por orden descendente. Ejemplo si saltaba de un <h1> al footer que era un <h3>,
+modifico este último para que sea un <h2> y esten en orden.

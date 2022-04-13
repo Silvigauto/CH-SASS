@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=League+Gothic&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap");
+.bgLightblue {
+  background-color: lightblue; }
+
 .nosotros {
   grid-area: nosotros;
   text-align: center;
@@ -6,20 +9,24 @@
   line-height: 40px;
   margin: 30px; }
   .nosotros h1 {
-    font-family: "League Gothic", sans-serif;
     font-size: 4rem;
-    padding: 10px; }
+    line-height: 1em;
+    margin: 10px;
+    font-family: "League Gothic", sans-serif; }
   .nosotros img {
     padding: 30px; }
-  .nosotros .btnMore {
+  .nosotros .btnMore, .nosotros .boton3 {
     background-color: pink;
     border: none;
     border-radius: 5px;
-    margin-top: 10px; }
-    .nosotros .btnMore:hover {
+    margin-top: 10px;
+    width: 100%; }
+    .nosotros .btnMore:hover, .nosotros .boton3:hover {
       color: white;
       transform: scale(1.1);
       transition: 0.3s; }
+  .nosotros .boton3:hover {
+    color: violet; }
   @media (min-width: 1024px) {
     .nosotros {
       display: flex;
@@ -32,3 +39,20 @@
         justify-content: center;
         height: 300px;
         width: 50%; } }
+
+.boton1 {
+  background-color: #5172a8;
+  border: none;
+  padding: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 4px;
+  width: 200px;
+  text-align: center; }
+
+.boton1 {
+  margin-top: 15px; }
+  .boton1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s; }
